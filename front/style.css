@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Shrikhand|Six+Caps');
+
+
+body {
+    margin: 0;
+    background: black;
+    font-family: Orbitron
+}
+
+
+.canvasWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width:100%;
+}
+
+.canvas {
+    border: solid 5px grey;
+    margin:auto;
+}
+
+.menu {
+    margin:auto;
+    margin-top: 1%;
+    height: 10%;
+    width: 20%;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Orbitron
+}
+
+.title {
+    text-align: center;
+    color: #66ff33
+}
+
+.menuButton {
+    background-color: #66ff33;
+    font-family: Orbitron;
+    width: 30%;
+    height: 50%;
+}
+
+.menuButton:hover {
+    background-color: #22ff00;
+    box-shadow: 0 0 15px #22ff00
+}
